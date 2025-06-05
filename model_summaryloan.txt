@@ -1,0 +1,18 @@
+Model Evaluation Summary
+========================
+
+Mean Cross-Validated AUC: 0.9650
+Test AUC: 0.9720
+
+Cross-Validation AUC Scores:
+- Fold 1: 0.9680
+- Fold 2: 0.9683
+- Fold 3: 0.9681
+- Fold 4: 0.9675
+- Fold 5: 0.9602
+- Fold 6: 0.9579
+
+Comments:
+- The model shows strong and consistent performance across folds.
+- Slight drop in last two folds suggests possible data variability.
+- Next steps: Experiment with hyperparameter tuning and feature engineering for further improvement.
