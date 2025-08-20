@@ -1,11 +1,9 @@
-# loan-approval-by-pyspark
 # Loan Status Prediction using PySpark MLlib
 
 ## Overview
-
 This project demonstrates how to build a robust loan approval prediction pipeline using **PySpark MLlib**. It leverages real-world loan applicant data to predict whether a loan application will be **Approved** or **Rejected** based on various financial and personal attributes.
 
-The pipeline includes:
+## The pipeline includes:
 - Data preprocessing and feature engineering
 - Handling missing values with imputation
 - Encoding categorical variables
@@ -17,7 +15,6 @@ The pipeline includes:
 ---
 
 ## Dataset
-The dataset contains the following columns:
 
 | Column                  | Description                                   |
 |-------------------------|-----------------------------------------------|
@@ -40,17 +37,18 @@ The dataset contains the following columns:
 | loan_status_index       | Target variable (encoded loan status)            |
 
 ---
-Model Performance
-Mean Cross-Validated AUC: 0.9650
-Test AUC: 0.9720
+## Model Performance
+- Mean Cross-Validated AUC: 0.9650
+- Test AUC: 0.9720
 The model demonstrates strong predictive power in distinguishing approved vs rejected loans.
-Visualizations:
-ROC Curve: Shows the trade-off between true positive rate and false positive rate.
-Confusion Matrix: Displays the counts of true positives, false positives, true negatives, and false negatives.
-Both visualizations are saved in the outputs/ directory for further analysis.
 
--- CONTACT--
-  If you have questions or want to collaborate, feel free to reach out!
+## Visualizations:
+- ROC Curve: Shows the trade-off between true positive rate and false positive rate.
+- Confusion Matrix: Displays the counts of true positives, false positives, true negatives, and false negatives.
+- Both visualizations are saved in the outputs/ directory for further analysis.
+
+## contact
+If you have questions or want to collaborate, feel free to reach out!
 GitHub: github.com/zaralrubaie
 
 
